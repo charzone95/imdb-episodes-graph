@@ -46,12 +46,11 @@ foreach ($rows as $key=>$val) {
 	$arr['rating'] = (float)explode('</td>', explode('<td align="right">', $val)[1])[0];
 	$arr['users'] = (int)explode('</td>', explode('<td align="right">', $val)[2])[0];
 	
-	
-	$result[] = $arr;
+	//if no rating, skip (not released yet)
+	if ($arr['users']) {
+		$result[] = $arr;
+	}
 }
-
-//remove last row
-unset($result[count($result)-1]);
 
 
 //generate variable versions of result (maybe will use this later)

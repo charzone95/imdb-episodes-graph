@@ -30,6 +30,16 @@
 			</p>
 		</form>
 		
+		<p>This tool only works on <b>TV SERIES</b></p>
+		<p>Some examples:</p>
+		<ul>
+			<li><a href="?id=tt3556944">Heroes Reborn</a></li>
+			<li><a href="?id=tt0944947">Game of Thrones</a></li>
+			<li><a href="?id=tt2364582">Agents of S.H.I.E.L.D. </a></li>
+			<li><a href="?id=tt4532368">Legends of Tomorrow</a></li>
+			
+		</ul>
+		
 		<hr style="margin-top:20px"/>
 		
 		<p>Source code available at <a href="https://github.com/charzone95/imdb-episodes-graph" target="_BLANK">github.com/charzone95/imdb-episodes-graph</a></p>

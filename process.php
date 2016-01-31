@@ -67,6 +67,7 @@ foreach ($result as $val) {
 	$ratings[] = $val['rating'];
 	$users[] = $val['users'];
 	
+	$temp = [];
 	$temp['y'] = $val['rating'];
 	$temp['link'] = $val['link'];
 	$temp['title'] = $val['title'];

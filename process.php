@@ -97,6 +97,8 @@ $(function () {
             title: {
                 text: 'Rating'
             },
+            min: 0,
+            max: 10
             
         },
        	colors: ['#2196F3'],
